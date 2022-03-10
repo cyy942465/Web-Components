@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  margin-top: 100px;
+  width: 100%;
+  height: 340px;
+  position: relative;
+}
+
+/*照片列表*/
+.list {
+  width: 1200px;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+}
+/*照片*/
+li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.p1{
+  transform:translate3d(-224px,0,0) scale(0.81);
+}
+.p2{
+  transform:translate3d(0px,0,0) scale(0.81);
+  transform-origin:0 50%;
+  opacity: 0.8;
+  z-index: 2;
+}
+.p3{
+  transform:translate3d(224px,0,0) scale(1);
+  z-index: 3;
+  opacity: 1;
+}
+.p4{
+  transform:translate3d(449px,0,0) scale(0.81);
+  transform-origin:100% 50%;
+  opacity: 0.8;
+  z-index: 2;
+}
+.p5{
+  transform:translate3d(672px,0,0) scale(0.81);
+}
+.p6{
+  transform:translate3d(896px,0,0) scale(0.81);
+}
+.p7{
+  transform:translate3d(1120px,0,0) scale(0.81);
+}
+
+img{
+  width: 751px;
+  height: 300px;
+  border:none;
+  float: left;
+}
+/*左右按钮*/
+.btn {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  background-color: rgba(0,255,0,.5);
+  cursor: pointer;
+  top: 40%;
+}
+
+.next {
+  right: 0;
+}
+
+/*下方分割线*/
+.buttons {
+  position: absolute;
+  width: 1200px;
+  height: 30px;
+  bottom: 0;
+  left: 50%;
+  margin-left: -600px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  width: 35px;
+  height: 5px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  width: 35px;
+  height: 1px;
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
