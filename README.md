@@ -2,6 +2,6 @@
 用于存放前端一些小效果的练习代码
 ## 图片类
 仿网易云图片切换
-> <https://cyy942465.github.io/Web-Components/images/3dchange/3DChangeImg.html>
+> <https://cyy942465.github.io/Web-Components/images/3dchange/3DChangeImg.html> <
 相册图片放大切换效果
-> <<https://cyy942465.github.io/Web-Components/images/dblumn/index.html>
+> <<https://cyy942465.github.io/Web-Components/images/dblumn/index.html> <
