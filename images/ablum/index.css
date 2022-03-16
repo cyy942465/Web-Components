@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*整体框架*/
+#wrap {
+    width: 1000px;
+    height: 630px;
+    margin: 0 auto;
+}
+/* 放大前图片样式 */
+.images li {
+    list-style: none;
+    float: left;
+    margin: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #333;
+    font-size: 0; /*去掉a的高度*/
+}
+/* 放大后 */
+#black {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute; /*脱离文本流*/
+    top: 0;
+    left: 0;
+    background-color: rgba(000, 000, 000, 0.7);
+}
+
+#big {
+    width: 650px;
+    height: 406px;
+    position: absolute;
+    border: 10px solid #fff;
+    display: none;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+}
+
+#left,
+#right {
+    position: absolute;
+    top: 180px;
+    cursor: pointer;
+}
+
+#left {
+    left: -60px;
+}
+
+#right {
+    right: -60px;
+}
